@@ -198,7 +198,7 @@ class librarybooksearch_admin{
 	}
 	//Admin menu page
 	public function adminmenu_page_reg(){
-		add_menu_page( 'Library Book Search Shortcode page', 'Shortcode', 'manage_options', 'shortcode', array( $this,'display_shortcode' ), '' );
+		add_menu_page( 'Library Book Search Shortcode pages', 'Shortcode', 'manage_options', 'shortcode', array( $this,'display_shortcode' ), '' );
 	}
 	public function display_shortcode(){ 
 		?>
